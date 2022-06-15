@@ -1800,7 +1800,9 @@ body {
     .review-section {
         padding: 100px 0 100px 0;
     }
-
+    .form-item{
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
@@ -1815,6 +1817,9 @@ body {
 
     .flex-split .f-left {
         padding: 25px 50px;
+    }
+    .form-item{
+        margin-top: 15px;
     }
 
 }
@@ -1833,6 +1838,9 @@ body {
 
     .hero-2 .intro p {
         max-width: 300px;
+    }
+    .form-item{
+        margin-top: 15px;
     }
 }
 
@@ -1853,6 +1861,9 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+    .form-item{
+        margin-top: 15px;
     }
 }
 
@@ -1878,6 +1889,9 @@ body {
         align-items: center;
         width: 100%;
     }
+    .form-item{
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1894,7 +1908,9 @@ body {
     .hidden-button{
         display: none;
     }
-
+    .form-item{
+        margin-top: 15px;
+    }
 }
 
 
@@ -1946,6 +1962,9 @@ body {
         align-items: center;
         width: 100%;
     }
+    .form-item{
+        margin-top: 15px;
+    }
 }
 
 
@@ -1971,6 +1990,9 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+    .form-item{
+        margin-top: 15px;
     }
 
 }
