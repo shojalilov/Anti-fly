@@ -190,7 +190,7 @@ body {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;;
     font-weight: 500;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding-top: 25px;
     letter-spacing: 1px;
     height: 80px;
@@ -251,7 +251,7 @@ body {
     font-family: 'Poppins', sans-serif;;
     font-size: 15px;
     font-weight: 700;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     color: #b3b3b3;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5;
@@ -314,7 +314,7 @@ body {
     font-family: 'Poppins', sans-serif;;
     font-size: 14px;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -1680,7 +1680,9 @@ body {
     color: #FFFFFF;
 }
 
-
+.hidden-button{
+    display: none;
+}
 /*-----------------------------------------------------
 -------------------------------------------------------
 ------------------- All Media Queries------------------
@@ -1696,7 +1698,12 @@ body {
     .hero .intro {
         padding: 100px 0 75px 0;
     }
-
+    .hidden-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 
     .hero .intro h1 {
         font-size: 58px;
@@ -1809,6 +1816,7 @@ body {
     .flex-split .f-left {
         padding: 25px 50px;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1840,7 +1848,12 @@ body {
         flex: 1 0 50%;
         height: 360px;
     }
-
+    .hidden-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 420px) {
@@ -1859,6 +1872,12 @@ body {
     .main-2 .cta {
         background-image: none;
     }
+    .hidden-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1872,7 +1891,9 @@ body {
         float: none;
         text-align: justify;
     }
-
+    .hidden-button{
+        display: none;
+    }
 
 }
 
@@ -1919,6 +1940,12 @@ body {
     .back-to-top {
         right: 10px;
     }
+    .hidden-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 
@@ -1938,6 +1965,12 @@ body {
         padding: 0 5px 0 5px;
         border-radius: 0 5px 5px 0;
         margin-top: 15px;
+    }
+    .hidden-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
 }
