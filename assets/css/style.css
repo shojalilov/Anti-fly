@@ -319,7 +319,9 @@ body {
     letter-spacing: 1px;
 }
 
-
+.navbar .btn-nav:focus a{
+    color: #41CD52 !important;
+}
 .navbar .btn-nav:hover {
     background: #41CD52 !important;
     color: #FFFFFF;
@@ -434,7 +436,12 @@ body {
 
     .navbar-default.past-main .navbar-nav > .active > a:focus {
         background: transparent;
-        color: #41CD52;
+        color: #41CD52 !important;
+    }
+
+    .navbar-default.past-main .navbar-nav > .active > span{
+        background: transparent;
+        color: #41CD52 !important;
     }
 
     .navbar-default.past-main .btn-nav {
