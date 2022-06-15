@@ -152,7 +152,12 @@ body {
     position: relative;
     z-index: 9999;
 }
-
+.phone-icon{
+    width: 40px;
+    height: 40px;
+    stroke: #4cae4c;
+    margin-bottom: 10px;
+}
 
 .logo {
     position: absolute;
@@ -165,23 +170,7 @@ body {
     position: relative;
 }
 
-.logo-main::before {
-    content: '.UZ';
-    border-radius: 50%;
-    background-color: rgb(238, 108, 2);
-    color: #fff;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 5px;
-    left: 92px;
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.8;
-    display: none;
-}
+
 
 /* ------ Navbar Styling Starts ----- */
 
@@ -1878,6 +1867,10 @@ body {
     .main-2 .cta-inner p{
         max-width: 605px;
     }
+    .logo-main{
+        padding: 0;
+        margin: 0;
+    }
 
 }
 
@@ -1909,6 +1902,10 @@ body {
     .main-2 .cta{
         background: none;
     }
+    .logo-main{
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1927,6 +1924,10 @@ body {
     }
     .form-item{
         margin-top: 15px;
+    }
+    .logo-main{
+        padding: 0;
+        margin: 0;
     }
 
 }
@@ -1986,6 +1987,10 @@ body {
     .main-2 .cta{
         background-image: none;
     }
+    .logo-main{
+        padding: 0;
+        margin: 0;
+    }
 }
 
 
@@ -2017,5 +2022,9 @@ body {
     }
     .main-2 .cta{
         background-image: none;
+    }
+    .logo-main{
+        padding: 0;
+        margin: 0;
     }
 }
