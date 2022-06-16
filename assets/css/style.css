@@ -76,12 +76,12 @@ table {
 /* --- Common Styles ---*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
 
@@ -1286,7 +1286,7 @@ body {
 }
 
 .app-info span {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: #FFFFFF;
@@ -1320,7 +1320,7 @@ body {
 }
 
 .main-2 .cta-inner h1 {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.1;

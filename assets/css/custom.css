@@ -43,3 +43,18 @@
 .call-icon:hover a{
     left: 0;
 }
+.custom-video{
+    display: block;
+    margin: 50px auto;
+    width: 95%;
+    height: 500px;
+
+}
+@media only screen and (max-width:500px){
+    .call-icon{
+        top: 85vh;
+    }
+    .custom-video{
+    height: 300px;
+    }
+}
