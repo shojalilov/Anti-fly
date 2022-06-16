@@ -34,10 +34,11 @@
     transition: all 1s;
     text-decoration: none;
     color: #41CD52;
+    font-family: 'Poppins', sans-serif;
 
 }
 .call-icon:hover{
-    width: 244px;
+    width: 253px;
 }
 .call-icon:hover a{
     left: 0;
