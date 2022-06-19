@@ -243,7 +243,7 @@ body {
     /*text-transform: capitalize;*/
     color: #b3b3b3;
     -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5;
+    -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
 
