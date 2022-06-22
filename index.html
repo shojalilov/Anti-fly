@@ -19,6 +19,18 @@
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
     <link rel="stylesheet" href="assets/css/custom.css">
+    <style>
+        .hidden-link:active{
+        text-decoration: none;
+            outline: none;
+            border: none !important;
+        }
+        .hidden-link:hover{
+            text-decoration: none;
+            outline: none;
+        }
+
+    </style>
 </head>
 <body>
 <div class="call-icon">
@@ -101,10 +113,12 @@
                     <div class="col-12">
                         <iframe class="custom-video"  src="https://www.youtube.com/embed/d6gkI5dNwHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"
-                             style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma
-                        berish
-                    </button>
+                    <a class="hidden-link" href="#reviews">
+                        <button  class="btn btn-lg btn-success new-sbm-btn btn-block" type="submit" name="submit"
+                                 style="margin:20px 0;  border: 1px solid #fff; border-radius: 50px;" style="border-radius: 50px; border: 1px solid #fff">Buyurtma
+                            berish
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
